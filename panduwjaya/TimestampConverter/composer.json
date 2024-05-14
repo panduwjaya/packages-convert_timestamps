@@ -1,0 +1,23 @@
+{
+    "name": "panduwjaya/timestamp-converter",
+    "description": "A Laravel package to convert timestamps to various date and time formats.",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "panduwjaya\\TimestampConverter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "panduwjaya\\TimestampConverter\\TimestampConverterServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
